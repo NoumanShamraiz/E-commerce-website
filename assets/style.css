@@ -1,0 +1,166 @@
+body {
+    background-color: #ecedee
+}
+.card {
+    border: none;
+    overflow: hidden
+}
+
+.thumbnail_images ul {
+    list-style: none;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-top: 12px
+}
+
+.thumbnail_images ul li {
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid #eee;
+    cursor: pointer;
+    transition: all 0.5s;
+    opacity: 1 ;
+}
+
+.thumbnail_images ul li:hover {
+    border: 1px solid #fe980f
+}
+
+.main_image {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #eee;
+    height: 400px;
+    width: 100%;
+    overflow: hidden
+}
+
+.heart {
+    height: 29px;
+    width: 29px;
+    background-color: #eaeaea;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.content p {
+    font-size: 12px
+}
+
+.ratings span {
+    font-size: 14px;
+    margin-left: 12px
+}
+
+.colors {
+    margin-top: 5px
+}
+
+.colors ul {
+    list-style: none;
+    display: flex;
+    padding-left: 0px
+}
+
+.colors ul li {
+    height: 20px;
+    width: 20px;
+    display: flex;
+    border-radius: 50%;
+    margin-right: 10px;
+    cursor: pointer
+}
+
+.colors ul li:nth-child(1) {
+    background-color: #6c704d
+}
+
+.colors ul li:nth-child(2) {
+    background-color: #96918b
+}
+
+.colors ul li:nth-child(3) {
+    background-color: #68778e
+}
+
+.colors ul li:nth-child(4) {
+    background-color: #263f55
+}
+
+.colors ul li:nth-child(5) {
+    background-color: black
+}
+
+.right-side {
+    position: relative
+}
+
+.buttons .btn {
+    height: 50px;
+    width: 150px;
+    border-radius: 0px !important
+}
+/*---- Arrived Item----*/
+.related{
+    width: 90%;
+    margin: 0 auto 40px;
+}
+.related .row{
+    width: 100%;
+    height: auto;
+}
+.col-lg-3{
+    
+    height: 90%;
+}
+.items img{
+ 
+    width: 100%;
+    outline: .25rem solid #ff8d1e;
+  outline-offset: 0;
+  height: 20rem;
+}
+.items img:hover{
+    
+    width: 100%;
+    outline: .2rem solid #ff8d1e;
+  outline-offset: 0;
+  height: 25rem;
+  transform: scale(.9);
+}
+.details{
+    margin-top: 20px;
+}
+.details p{
+    font-size: 14px;
+    margin-bottom: 10px;
+    color:#555
+}
+.details .rating{
+    margin: 10px 0;
+    color:green
+}
+.details p:hover{
+    font-size: 16px;
+    margin-bottom: 10px;
+    color:#fe980f
+}
+.details .rating:hover{
+    margin: 12px 0;
+    color:#fe980f;
+}
+ .d-flex .btn{
+    color: #fff;
+    font-size: 15px;
+    border: 0;
+    border-radius: 5px;
+    background:#ff8d1e;
+    padding: 10px 15px;
+    box-sizing: border-box;
+  }
+

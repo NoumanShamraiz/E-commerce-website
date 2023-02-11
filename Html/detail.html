@@ -1,0 +1,343 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Product Detail page</title>
+    <link rel="stylesheet" href="../assets/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+</head>
+
+
+
+
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <h3 class="logo-color" style="color:#ff8d1e;">Bech<sub>De</sub></h3>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav mx-auto mb-2 mb-md-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Service</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Categories
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Electronic Device</a></li>
+                  <li><a class="dropdown-item" href="#">Cloth</a></li>
+                  <li><a class="dropdown-item" href="#">Bags</a></li>
+                  <li><a class="dropdown-item" href="#">Watch</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contect Us</a>
+              </li>
+             
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header><br><br> 
+      <!---Product Page-Start---------------------
+      -------------------------------------->
+    <div class="container mt-5 mb-5">
+       <div class="card">
+            <div class="row g-0">
+                <div class="col-md-6 border-end">
+                    <div class="d-flex flex-column justify-content-center">
+                        <div class="main_image"> <img src="../assets/image/product1.png" id="main_product_image"
+                          width="300" height auto> </div>
+                        <div class="thumbnail_images row mt-1 mb-3 d-none d-lg-block">
+                            <ul id="thumbnail">
+                                <li><img onclick="changeImage(this)" src="../assets/image/product1.png" width="70"></li>
+                                <li><img onclick="changeImage(this)" src="../assets/image/product2.png" width="70"></li>
+                                <li><img onclick="changeImage(this)" src="../assets/image/product3.png" width="70"></li>
+                                <li><img onclick="changeImage(this)" src="../assets/image/product4.png" width="70"></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="p-3 right-side">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h3 style="color:#ff8d1e;">Woman Black Quirky Print Empire Dress</h3> <span class="heart"><i class='bx bx-heart'></i></span>
+                        </div>
+                        <div class="mt-2 pr-3 content">
+                            <p style="color:Green;"><b>The Price of this Beautiful Womens dress You have buy this dress.Woman Black Quirky Print Empire Dress.
+                              IF you want to buy this Dress then click on Buy Button</b>
+                        </div>
+                        <h3  style="color:#ff8d1e;">Rs= 15000</h3>
+                        <div class="ratings d-flex flex-row align-items-center">
+                            <div class="d-flex flex-row"> <i class='bx bxs-star'></i> <i class='bx bxs-star'></i> <i
+                                    class='bx bxs-star'></i> <i class='bx bxs-star'></i> <i class='bx bx-star'></i> </div>
+                            <span>441 reviews</span>
+                        </div>
+                        <div class="mt-5"> <span class="fw-bold">Color</span>
+                            <div class="colors">
+                                <ul id="marker">
+                                    <li id="marker-1"></li>
+                                    <li id="marker-2"></li>
+                                    <li id="marker-3"></li>
+                                    <li id="marker-4"></li>
+                                    <li id="marker-5"></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="buttons d-flex flex-row mt-5 gap-3"> 
+                          <a href="./cart.html">
+                            <button class="btn btn-outline-dark">Add to Cart</button> 
+                          </a>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+   </div>
+   
+    <!---Product Page-End---------------------
+      -------------------------------------->
+        <!----------- Product Descripation start---------------------
+------------------------------------------>
+<Div class="container">
+<div class="row ">
+  <div class="container mt-4 ">
+    <ul class="nav nav-tabs" id="myTab" role="tablist">
+        <li class="nav-item" role="presentation">
+            <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true" style="color:orangered;">DESCRIPTION</button>
+        </li>
+        <li class="nav-item" role="presentation">
+            <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false" style="color:orangered;" >Shipping&Location</button>
+        </li>
+        <li class="nav-item" role="presentation">
+            <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false" style="color:orangered;">Reviews</button>
+        </li>
+    </ul>
+    <div class="tab-content" style="background-color: rgb(255, 255, 255);" id="myTabContent">
+        <div class="tab-pane fade show active pb-3 pt-3" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+            <h2 style="text-align: center;color: #ff8d1e;">Product details</h2>
+          <Div class="container">
+              <P>Pakistan has a thriving fashion industry and most of the population is female which means there is a huge customer base for Eastern clothing. Many women’s clothing brands in Pakistan have made their name in the country and by using the features of rich Pakistani cultural heritage, the clothes are unique and cannot be found anywhere else. Moreover, numerous celebration events are considered sacred in Pakistan such as Eids and weddings. Considering these points, the clothing brands bring out their best each year.
+                 Women have an advantage over men because they have an endless variety of options from different brands, unlike men</P>
+               
+                 <ul style="color:green;">
+                <li>A super Classic dresses avaliable Here.</li>
+                <li>Good Quality. </li>
+                <li>On-seam Pocket.</li>
+                <li>Invisible center back zipper closure.</li>
+                <li> Different dresses are avalible with different colours and Styles.</li>
+                <li>All dress has Tie at the Waist.</li>
+
+           
+            </ul>
+            <p>Message reminder (SMS, Facebook, INS, Twitter, etc.), call reminder. Answer the call after connecting with the mobile phone's Bluetooth. Heartbeat monitoring, blood pressure monitoring. Step counting, calorie monitoring, distance monitoring.
+                Sedentary reminder, remind you to exercise. Sleep monitoring, record and analyze your sleep status. Anti-loss function. The phone book function can add daily contacts. A variety of sports modes are available. Built-in Bluetooth
+                music player. Bluetooth connection to take pictures remotely. Custom dial, personalized settings. Free setting of alarm clock and clock, multiple screen display settings.</p>
+              </Div>
+              </div>
+
+
+        <div class="tab-pane fade pt-3" style="background-color: rgb(255, 255, 255); " id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+            <h2 style="color:#ff8d1e; text-align: center;"> Shipping&Location</h2>
+            <br>
+            <br>
+
+            <div class="table-responsive">
+                <table class="table table-bordered">
+
+                    <tbody>
+                        <tr>
+
+                            <td style="background-color:rgb(0,0,0,.2);"><b> Shipping Cost </b></td>
+
+                            <td style="background-color: rgb(0,0,0,.09); ">Free Shipping</td>
+                        </tr>
+                        <tr>
+
+                            <td style="background-color: rgb(0,0,0,.2);"><b> Shipping Time </b></td>
+                            <td style="background-color: rgb(0,0,0,.09); ">Ready to ship in 2-3 Working Days</td>
+
+                        </tr>
+                        <tr>
+
+                            <td style="background-color: rgb(0,0,0,.2);"><b>Location</b></td>
+                            <td style="background-color: rgb(0,0,0,.09); ">Rawalpindi</td>
+                        </tr>
+                    </tbody>
+                </table>
+                </div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13288.025528870623!2d73.09949828155658!3d33.631076515507864!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38dfeb4d5327b9a9%3A0x6ddb48d57613f969!2sClothing%20Brand!5e0!3m2!1sen!2s!4v1664831463106!5m2!1sen!2s" width="100%" height="300" style="border:0;"
+                 allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+
+          <div class="tab-pane fade pb-3 pt-3" style="background-color: rgb(255, 255, 255);" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">
+            <h3 style="color:#ff8d1e;">Reviews:
+                <p style="color:green; text-align: center; ">No reviews yet.</p>
+            </h3>
+        </div>
+     
+    </div> 
+</div></Div>
+<!---Arrived Items- start----
+  ---------------------->
+  <div class="container">
+<div class="related">
+  <h2 style="color: #ff8d1e;">Arrived Items </h2>
+  <div class="row">
+      <div class="col-lg-3">
+          <div class="items">
+              <img src="../assets/image/item1.png" alt="">
+              <div class="details">
+                  <p>Woman Brown Solid Biker Jacket</p>
+                  <div class="rating">
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star-half-o"></i>
+                  </div>
+
+                  <p>USD $120.00</p>
+
+              </div>
+          </div>
+      </div>
+      <div class="col-lg-3">
+          <div class="items">
+              <img src="../assets/image/item2.png" alt="">
+              <div class="details">
+                  <p>Navy Blue Flared Palazzos</p>
+                  <div class="rating">
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star-half-o"></i>
+                      <i class="fa fa-star-o"></i>
+                  </div>
+
+                  <p>USD $80.00</p>
+
+              </div>
+          </div>
+      </div>
+      
+      <div class="col-lg-3">
+          <div class="items">
+              <img src="../assets/image/item3.png" alt="">
+              <div class="details">
+                  <p>Jacquard Banarasi Dupatta</p>
+                  <div class="rating">
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star-o"></i>
+                  </div>
+
+                  <p>USD $110.00</p>
+
+              </div>
+          </div>
+      </div>
+      <div class="col-lg-3">
+          <div class="items">
+              <img src="../assets/image/item4.png" alt="">
+              <div class="details">
+                  <p>Printed Straight Kurta</p>
+                  <div class="rating">
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star-half-o"></i>
+                      <i class="fa fa-star-o"></i>
+                  </div>
+
+                  <p>USD $100.00</p>
+                 </div>
+          </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+<!-- FOOTER ------------------------------
+------------------------------------------>
+   <footer class="container-fluid py-5"> <hr> 
+  <div class="row">
+    
+    <div class="col-md-4">
+      <h1 class="logo-color" style="color:#ff8d1e;">Bech<sub>De</sub></h1>
+      <ul class="list-unstyled text-small">
+        
+        "Fast and Secure" free shipping All over Feel free to contact us for <br> any additional details 
+        required on product delivery and payment methods. Buying from us you can be sure that you’ll get <br> the product quickly.
+         
+      </ul>
+    </div>
+    
+    <div class="col-md-4">
+      <h5>Useful Links</h5>
+      <ul class="list-unstyled text-small"> <br><br>
+        <li><a class="text-muted" href="#">Facebook</a></li><br>
+        <li><a class="text-muted" href="#">Google</a></li> <br>
+        <li><a class="text-muted" href="#">Instagram</a></li> 
+        <br>
+        <li><a class="text-muted" href="#">PlayStore</a></li> 
+      </ul>
+      <ul class="list-unstyled d-flex">
+        <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
+        <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+        <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+      <li style="font-size: 25px;word-spacing:10px"><a href="#"><i class="fa fa-facebook"></i> </a>
+        <a href="#"><i class="fa fa-twitter"></i> </a>
+        <a href="#"><i class="fa fa-snapchat-ghost"></i> </a>
+        <a href="#"><i class="fa fa-instagram"></i> </a>
+        <a href="#"><i class="fa fa-google-plus"></i> </a></li>
+    </div>
+    <div class="col-md-4">
+      <h5>About Us</h5>
+      <ul class="list-unstyled text-small">
+        
+      
+        <li>Contect us <br><a class="text-muted" href="#">923105857533</a></li>
+        <li>Address<a class="text-muted" href="#"><Address>Rawalpindi</Address></a></li>
+        <li>Map location</li>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3321.7802869528064!2d73.06836115029245!3d33.63693844685478!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38df94d8b16b600b%3A0x67d559e931ff63df!2sAl%20Janat%20Mall%2C%20Commercial%20Market!5e0!3m2!1sen!2s!4v1664400767826!5m2!1sen!2s"
+         width="300" height="100"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+         </ul>
+         
+        </ul>
+       </div>
+  </div> 
+  <p class="copyright"> &copy; Copyright All rights reserved. </p>
+ </footer>
+
+    <script>
+        function changeImage(element) {
+     var main_prodcut_image = document.getElementById('main_product_image');
+    main_prodcut_image.src = element.src;
+    }
+    </script>
+    <Script src="../assets/productdescripation.js"></Script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+  </body>
+</html>
